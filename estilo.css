@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('D:/Usuario/Documentos/0 Faculdade/Design Web/Atividade Avaliativa/fundo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    font-family: 'Arial';
+}
+
+.menu ul li{
+    width: 150px;
+    float: right;
+}
+.menu ul label{
+    width: 150px;
+    float: left;
+}
+
+.menu label{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    font-size: 2em;
+}
+
+.menu a{
+    padding: 25px;
+    display: block;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a:hover{
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+
+.sinopse{    
+    padding: 20px;
+    font-size: x-large;
+    text-align: center;
+    background-size: auto;
+}
+
+.sinopse p{
+    background-color: #222;
+    color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    text-align: justify;
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sinopse h1{
+    font-size: 2em;
+    background-color: #222;
+    color: #f4f4f4;
+    border-radius: 5px;
+    width: 47%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding: 10px;
+}
+
+.sinopse h3{
+    background-color: #222;
+    color: #f4f4f4;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding: 10px;    
+}
+
+.desc{
+    background-color: rgba(34, 34, 34, 0.842);
+    color: #f4f4f4;
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 25px;
+}
+
+.conteudo ul li{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
+    background-color: rgba(34, 34, 34, 0.842);
+    color: #f4f4f4;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
+.conteudo ul{
+    margin-right: 200px;
+}
